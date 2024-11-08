@@ -1,0 +1,7 @@
+echo "I wnat to create a workflow"
+
+
+echo "creat a file21 and file 22"
+
+touch file 21
+touch file22
