@@ -1,0 +1,18 @@
+<%@ Page Language="C#" Inherits="MyProject.Index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="myForm" runat="server">
+        <asp:TextBox ID="nameTextBox" runat="server" Text="Enter your name"></asp:TextBox>
+        <br />
+        <asp:Button ID="submitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
+        <br />
+        <asp:Label ID="resultLabel" runat="server"></asp:Label>
+    </form>
+</body>
+</html>
